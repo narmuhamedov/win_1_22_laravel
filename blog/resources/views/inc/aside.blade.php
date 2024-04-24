@@ -11,7 +11,7 @@
 
 <div class="container">
     <div class="row">
-        <div class="col"><h1>Еще какой то текст левый</h1></div>
+        <div class="col"><h1>Оставьте ваши контакты</h1></div>
 
         <div class="col-md-4">
             @section('aside')
