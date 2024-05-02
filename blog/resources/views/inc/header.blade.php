@@ -20,6 +20,10 @@
                     <a class="nav-link" href="{{route('about-page')}}">О нас</a>
                 </li>
 
+                <li class="nav-item">
+                    <a class="nav-link" href="{{route('contact-data')}}">Все сообщения</a>
+                </li>
+
             </ul>
             <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">

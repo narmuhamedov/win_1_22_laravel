@@ -20,9 +20,17 @@ class ContactController extends Controller
         $contact -> message = $req->input('message');
         $contact -> save();
 
-        return redirect()->route('home-page');
+        return redirect()->route('home-page')->with('success', 'Your message has been sent');
 
 
+    }
+
+    public function allData(){
+        return view('messages', ['data'=>Contact::all()]);
+
+        #$contact = new Contact;
+        #return view('messages', ['data'=>$contact->find(2)]);
+        #dd($contact->all());
     }
 
 

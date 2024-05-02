@@ -10,7 +10,9 @@
 <body>
 
 @include('inc.header')
-
+<div class="container mt-5">
+    @include('inc.message')
+</div>
 @yield('content')
 
 @include('inc.aside')
