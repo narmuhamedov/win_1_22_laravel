@@ -8,7 +8,7 @@
             <h2>{{$element->name}}</h2>
             <h3>{{$element->subject}}</h3>
             <p>{{$element->created_at}}</p>
-            <a href=""><button class="btn btn-warning">Подробнее</button></a>
+            <a href="{{route('contact-detail', $element->id)}}"><button class="btn btn-warning">Подробнее</button></a>
         </div>
     @endforeach
 @endsection
